@@ -1,0 +1,271 @@
+* { 
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, 50fr); 
+    height: 100vh;
+    width: 100%;
+}
+
+.item1 {
+    background-image: linear-gradient(to right, #2C3E50, #34495E);
+}
+
+.item2 {
+    background-image: linear-gradient(to right, #34495E, #1ABC9C); 
+}
+
+.item3 {
+    background-image: linear-gradient(to right, #1ABC9C, #F39C12); 
+}
+
+.item4 {
+    background-image: linear-gradient(to right, #F39C12, #E74C3C); 
+}
+
+.item5 {
+    background-image: linear-gradient(to right, #E74C3C, #FF6347); 
+}
+
+.item6 {
+    background-image: linear-gradient(to right, #FF6347, #FF6347); 
+}
+
+.item7 {
+    background-image: linear-gradient(to right, #FF6347, #F39C12); 
+}
+
+.item8 {
+    background-image: linear-gradient(to right, #F39C12, #1ABC9C); 
+}
+
+.item9 {
+    background-image: linear-gradient(to right, #1ABC9C, #34495E); 
+}
+
+.item10 {
+    background-image: linear-gradient(to right, #34495E, #2C3E50); 
+}
+
+.item11 {
+    background-image: linear-gradient(to right, #2C3E50, #34495E);
+}
+
+.item12 {
+    background-image: linear-gradient(to right, #34495E, #1ABC9C);
+}
+
+.item13 {
+    background-image: linear-gradient(to right, #1ABC9C, #F39C12); 
+}
+
+.item14 {
+    background-image: linear-gradient(to right, #F39C12, #E74C3C); 
+}
+
+.item15 {
+    background-image: linear-gradient(to right, #E74C3C, #FF6347); 
+}
+
+.item16 {
+    background-image: linear-gradient(to right, #FF6347, #FF6347); 
+}
+
+.item17 {
+    background-image: linear-gradient(to right, #FF6347, #F39C12); 
+}
+
+.item18 {
+    background-image: linear-gradient(to right, #F39C12, #1ABC9C); 
+}
+
+.item19 {
+    background-image: linear-gradient(to right, #1ABC9C, #34495E); 
+}
+
+.item20 {
+    background-image: linear-gradient(to right, #34495E, #2C3E50); 
+}
+.window {
+    position: absolute;
+    top: 35%; 
+    left: 25%; 
+    width: 200px; 
+    height: 200px; 
+}
+
+.window-pane {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+.window-pane.vertical {
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px; 
+}
+
+.window-pane.horizontal {
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 5px; 
+}
+
+.window-frame {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+.window-frame.top {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px; 
+}
+
+.window-frame.bottom {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+}
+
+.window-frame.left {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 5px; 
+}
+
+.window-frame.right {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 5px; 
+}
+
+
+.small-window {
+    position: absolute;
+    top: 65%; 
+    left: 55%; 
+    width: 100px; 
+    height: 100px; 
+}
+
+.small-window-pane {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+.small-window-pane.vertical {
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px; 
+}
+
+.small-window-pane.horizontal {
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 5px; 
+}
+
+.small-window-frame {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+.small-window-frame.top {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px; 
+}
+
+.small-window-frame.bottom {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+}
+
+.small-window-frame.left {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 5px; 
+}
+
+.small-window-frame.right {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 5px; 
+}
+
+.big-window {
+    position: absolute;
+    top: 10%; 
+    left: 70%; 
+    width: 300px; 
+    height: 300px; 
+}
+
+.big-window-pane {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+.big-window-pane.vertical {
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px; 
+}
+
+.big-window-pane.horizontal {
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 5px; 
+}
+
+.big-window-frame {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+.big-window-frame.top {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px; 
+}
+
+.big-window-frame.bottom {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+}
+
+.big-window-frame.left {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 5px; 
+}
+
+.big-window-frame.right {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 5px; 
+}
