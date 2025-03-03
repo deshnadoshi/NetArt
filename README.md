@@ -7,4 +7,4 @@ Week Four: Hypertext Narrative - https://deshnadoshi.github.io/NetArt/hypertext/
 
 Week Five: Bad Website - https://deshnadoshi.github.io/NetArt/badwebsite/index.html
 
-Week Five: Digital Quilt - https://deshnadoshi.github.io/NetArt/quilt/index.html
+Week Six: Digital Quilt - https://deshnadoshi.github.io/NetArt/quilt/index.html
