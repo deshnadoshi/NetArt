@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4, #ffdde1, #ffd699, #ffbc99);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2 {
+    font-family: 'Fira Mono', monospace;
+}
+
+
+.left {
+    width:30%;
+    display:block;
+    float:left;
+    padding-left:30px;
+}
+  
+.right {
+    width:60%;
+    display:block;
+    float:right;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height:100vh;
+}
+  
+img {
+    width:100%;
+}
+  
+@media screen and (max-width: 992px) {
+    .left {
+        width:60%;
+        float:none;
+        margin:0 auto;
+        text-align:center;
+        padding:0px;
+    }
+    .right {
+        width:80%;
+        text-align:center;
+        float:none;
+        margin:0 auto;
+        overflow-y:hidden;
+        overflow-x:hidden;
+        height:auto;
+    }
+}
+  
+@media screen and (max-width: 576px) {
+    .left {
+        width:100%;
+    }
+    .right {
+        width:100%;
+    }
+}
