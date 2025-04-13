@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: white; 
+    font-family: 'Cinzel Decorative', cursive;
+    color: #000;
+    height: 100vh;
+    position: relative;
+    cursor: url('https://cur.cursors-4u.net/cursors/cur-11/cur1019.cur'), auto;
+}
+
+#quote-container {
+    position:  absolute;
+    top: 50%;
+    left: 50%;
+    transform:  translate(-50%, -50%);
+    max-width: 85%;
+    text-align: center;
+    font-size: 45px;
+    z-index: 1;
+    padding: 20px 30px;
+    background: rgba(255, 255, 255, 0.6);
+    color: #222222;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+    
+
+#magic-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.sparkle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: radial-gradient(circle, #fc3636 70%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 3;
+    mix-blend-mode: screen;
+}
