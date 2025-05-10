@@ -23,8 +23,8 @@ $(document).ready(function() {
             hiddenhand: 0
         };
         
-        let maxScore = -1;
-        let finalPersonality = "observer"; // setting asdefault
+        let maxScore = 1;
+        let finalPersonality = "paradox"; // setting asdefault
 
         for (const personality in scores) {
             if (scores[personality] > maxScore) {
